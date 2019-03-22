@@ -36,7 +36,7 @@ In this example, you create the following Salesforce entities:
 - **IoT Explorer Orchestration** Defines a beer barrel state machine that reacts to incoming Platform Events and opens Cases as required.
 - **Custom Object Tab**  Lets you make the Custom Object (with the stored data from the device) accessible from the Salesforce1 mobile app.
 
-The Platform Event acts as an interface between the imp application and Salesforce. The Platform Event fields must have the names and types used in this example . If you change anything in the Platform Event definition, you will need to update the imp application’s agent source code. The name of the Platform Event is set in the agent code by the constant *READING_EVENT_NAME*.
+The Platform Event acts as an interface between the imp application and Salesforce. The Platform Event fields must have the names and types used in this example . If you change anything in the Platform Event definition, you will need to update the arduino app agent source code. The name of the Platform Event is set in the agent code by the constant *READING_EVENT_NAME*.
 
 In this project, we explore a specific example, but this is just one scenario you can use. As you continue to explore using Arduino with Salesforce, you can try out different scenarios with new fields, rules, sets of entities, and more.
 
